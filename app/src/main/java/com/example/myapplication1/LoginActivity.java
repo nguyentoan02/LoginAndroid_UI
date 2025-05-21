@@ -42,7 +42,7 @@ public class LoginActivity extends AppCompatActivity {
                 } else {
                     // Đây là nơi bạn sẽ gọi API hoặc kiểm tra thông tin đăng nhập với cơ sở dữ liệu
                     // Ví dụ đơn giản:
-                    if (username.equals("admin") && password.equals("123456")) {
+                    if (username.equals("admin") && password.equals("1234567")) {
                         Toast.makeText(LoginActivity.this, "Đăng nhập thành công!", Toast.LENGTH_SHORT).show();
                         // Chuyển sang màn hình chính (ví dụ: MainActivity)
                         // Intent intent = new Intent(LoginActivity.this, MainActivity.class);
